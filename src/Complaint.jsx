@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import axios from "axios";
 function Complaint() {
-  const [otpModel, setOtpModel] = useState(true);
+  const [otpModel, setOtpModel] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -63,8 +63,8 @@ function Complaint() {
   
 
   const handleGetOTP = async (e) => {
+    setOtpModel(true)
     console.log("handleGetOTP called",formData.email);
-
     e.preventDefault();
     try {
       const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/user/generate-otp', { emailId: formData.email });
@@ -78,9 +78,10 @@ function Complaint() {
 
 
   const handleSubmit = async (e) => {
+    console.log('handleSubmit called');
     e.preventDefault();
     try {
-      const response = await axios.post('/complaint', formData);
+      const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/complaint/create-complaint', formData);
       console.log('Form submitted:', response.data);
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -181,7 +182,7 @@ function Complaint() {
       </div>
 
       <div className="border w-[40vw] shadow-[0_4px_8px_rgba(0,0,0,0.1)] p-5">
-        <form class=" mx-auto " onSubmit={handleSubmit}>
+        <form class=" mx-auto ">
           <div class="grid md:grid-cols-2 md:gap-6">
             <div class="relative z-0 w-full mb-5 group">
               <input
@@ -276,7 +277,7 @@ function Complaint() {
             <div class="relative z-0 w-full mb-5 group">
               <input
                 type="tel"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                 name="phone"
                 id="floating_phone"
                 class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -388,6 +389,7 @@ function Complaint() {
           <button
             type="submit"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            onClick={handleSubmit}
           >
             Submit
           </button>
