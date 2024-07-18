@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -21,10 +22,11 @@ const Navbar = () => {
             <a href="/" className="text-gray-800 hover:text-gray-600 text-[1.2rem] font-semibold">Home</a>
             <div className="relative">
               <button 
-                className={`text-gray-800 hover:text-gray-600 focus:outline-none text-[1.2rem] font-semibold ${isDropdownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} 
+                className={`text-gray-800 flex flow-row items-center hover:text-gray-600 focus:outline-none text-[1.2rem] font-semibold ${isDropdownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} 
                 onClick={toggleDropdown}
               >
                 About Us
+                <RiArrowDropDownLine className='text-[2rem]' />
               </button>
               {isDropdownOpen && (
                 <div className="z-10 rounded-md absolute right-0 mt-2 w-48 bg-white border border-gray-200 shadow-lg">

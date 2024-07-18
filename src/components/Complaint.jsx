@@ -87,8 +87,8 @@ function Complaint() {
   };
 
   return (
-    <div className="flex w-[80vw] justify-around items-center mt-[5rem]">
-      <div className="h-[auto] ml-[5rem] p-5">
+    <div className="flex justify-center items-center mt-[5rem]">
+      <div className="h-[auto] ml-[10rem] p-5">
         <div className="font-sans p-5 max-w-md h-full mx-auto border border-gray-200 rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.1)]">
           <h2 className="text-blue-700">
             <b>Contact info</b>
