@@ -21,6 +21,13 @@ function Complaint() {
     message: '',
   });
 
+  const [otpVerified, setOtpVerified] = useState(false);
+
+  const checkFormValidity = (formData) => {
+      const isValid = Object.values(formData).every(value => value.trim() !== '');
+      return isValid;
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -53,6 +60,7 @@ function Complaint() {
     try {
       const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/user/verify-otp', { emailId:formData.email , otp: parseInt(otpCode) });
       console.log('OTP verified:', response.data);
+      setOtpVerified(true);
     } catch (error) {
       console.error('Error verifying OTP:', error);
     }
@@ -63,13 +71,17 @@ function Complaint() {
   
 
   const handleGetOTP = async (e) => {
-    setOtpModel(true)
+    //setOtpModel(true)
     console.log("handleGetOTP called",formData.email);
     e.preventDefault();
     try {
-      const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/user/generate-otp', { emailId: formData.email });
-      console.log('OTP sent:', response.data);
-      setOtpModel(true);
+      if (formData.email !== '') {
+        const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/user/generate-otp', { emailId: formData.email });
+        console.log('OTP sent:', response.data);
+        setOtpModel(true);
+      } else {
+        alert("Enter a valid email to get otp");
+      }
     } catch (error) {
       console.error('Error sending OTP:', error);
     }
@@ -78,8 +90,15 @@ function Complaint() {
 
 
   const handleSubmit = async (e) => {
-    console.log('handleSubmit called');
     e.preventDefault();
+    if (!checkFormValidity) {
+      alert("Please fill the entire form and try again!");
+      return;
+    } else if (!otpVerified) {
+      alert("Please verify otp first!");
+      return;
+    }
+    console.log('handleSubmit called');
     try {
       const response = await axios.post('https://r80q8w1t-4000.inc1.devtunnels.ms/complaint/create-complaint', formData);
       console.log('Form submitted:', response.data);
@@ -88,7 +107,8 @@ function Complaint() {
     }
   };
   return (
-    <div className="flex w-[80vw] justify-around items-center mt-[5rem] ">
+    <div className="flex justify-start items-center">
+      <div className="flex w-[80vw] justify-around items-center mt-[5rem] ">
       <div className="h-[auto] ml-[5rem] p-5">
         <div class="font-sans p-5 max-w-md h-full mx-auto border border-gray-200 rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.1)]">
           <h2 class="text-blue-700">
@@ -326,6 +346,7 @@ function Complaint() {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               value={formData.city}
               onChange={handleChange}
+              required
             >
               <option value="Gurugram">Gurugram</option>
               <option value="Haryana">Haryana</option>
@@ -344,6 +365,7 @@ function Complaint() {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               value={formData.village}
               onChange={handleChange}
+              required
             >
               <option value="Rewari">Rewari</option>
               <option value="Haryana">Haryana</option>
@@ -362,6 +384,7 @@ function Complaint() {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               value={formData.complaintType}
               onChange={handleChange}
+              required
             >
               <option value="Land Acquisition">Land Acquisition</option>
               <option value="corruption">corruption</option>
@@ -382,7 +405,8 @@ function Complaint() {
               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Leave a comment..."
               value={formData.message}
-          onChange={handleChange}
+              onChange={handleChange}
+              required
             ></textarea>
           </div>
 
@@ -395,6 +419,7 @@ function Complaint() {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 }

@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <hr className="my-6 sm:mx-autoborder-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+          <span className="text-sm sm:text-center text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Molog</a>. All Rights Reserved.</span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a href="#" className=" hover:text-gray-900 hover:text-white">
               <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
