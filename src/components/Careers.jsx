@@ -143,10 +143,10 @@ const Careers = () => {
                             </div>
                             <div className='flex flex-col justify-center'>
                                 <div className=' hover:bg-blue-300 duration-300 border-[1px] w-fit h-fit p-6'>
-                                    <IoIosDocument className='text-[1.2rem]'/>
+                                    <IoIosDocument className='text-[1rem]'/>
                                 </div>
                                 <div className=' hover:bg-blue-300 duration-300 border-[1px] w-fit h-fit p-6'>
-                                    <VscGitStashApply className='text-[1.2rem]'/>
+                                    <VscGitStashApply className='text-[1rem]'/>
                                 </div>
                             </div>
                         </div>

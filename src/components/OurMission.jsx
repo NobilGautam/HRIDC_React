@@ -11,8 +11,8 @@ const OurMission = () => {
   return (
     <>
       <div className='pt-10 pl-[5%] mb-10'>
-        <h1 className='text-[3rem] font-bold'>NEWS UPDATES</h1>
-        <p className='text-[1.2rem] font-light text-gray-600'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <h1 className='text-[2rem] font-bold'>NEWS UPDATES</h1>
+        <p className='text-[1rem] font-light text-gray-600'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
       </div>
       <Swiper
         // modules={[Navigation, Pagination, Scrollbar]}
@@ -22,13 +22,24 @@ const OurMission = () => {
         navigation={true}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
+        breakpoints={{
+          768: {
+            slidesPerView: 3, // 3 slides per view for screens 768px and up
+          },
+          425: {
+            slidesPerView: 2, // 2 slides per view for screens less than 768px
+          },
+          0: {
+            slidesPerView: 1,
+          }
+        }}
         className='flex justify-center items-center w-[90%] mx-auto relative'
       >
         {[1, 2, 3, 4].map((index) => (
-          <SwiperSlide key={index}>
-            <div className='max-w-xl bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+          <SwiperSlide key={index} className='flex justify-center'>
+            <div className='max-w-[80%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
               <a href="#">
-                <img className='rounded-t-lg' src={cardImg} alt="" />
+                <img className='rounded-t-lg' src='https://img.onmanorama.com/content/dam/mm/en/kerala/top-news/images/2022/4/23/railways-propaganda-paper.png' alt="" />
               </a>
               <div className='p-5'>
                 <a href="#">

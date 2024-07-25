@@ -26,7 +26,7 @@ const News = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
-                    <p className='text-[1.2rem] font-light text-white w-[90%]'>
+                    <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
                 </div>
@@ -48,7 +48,7 @@ const News = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
-                    <p className='text-[1.2rem] font-light text-white w-[90%]'>
+                    <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
                 </div>
@@ -70,7 +70,7 @@ const News = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
-                    <p className='text-[1.2rem] font-light text-white w-[90%]'>
+                    <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
                 </div>
@@ -92,7 +92,7 @@ const News = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
-                    <p className='text-[1.2rem] font-light text-white w-[90%]'>
+                    <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
                 </div>
@@ -114,7 +114,7 @@ const News = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
-                    <p className='text-[1.2rem] font-light text-white w-[90%]'>
+                    <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
                 </div>
