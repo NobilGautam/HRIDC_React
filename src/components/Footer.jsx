@@ -13,35 +13,52 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">Useful Links</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">About us</a>
+                  <a href="https://ncrtc.in/vigilance/" className="hover:underline">Vigilance</a>
                 </li>
-                <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                <li className=' mb-4'>
+                  <a href="https://ncrtc.in/privacy-policy/" className="hover:underline">Privacy Policy</a>
+                </li>
+                <li className='mb-4'>
+                  <a href="https://ncrtc.in/telephone-directory/" className="hover:underline">Telephone Directory</a>
+                </li>
+                <li className='mb-4'>
+                  <a href="https://ncrtc.in/copyright-statement/" className="hover:underline">Copyright Statement</a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">External Links</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                  <a href="https://india.gov.in/" className="hover:underline ">National Portal</a>
                 </li>
-                <li>
-                  <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                <li className='mb-4'>
+                  <a href="http://mohua.gov.in/" className="hover:underline">MoHUA</a>
+                </li>
+                <li className='mb-4'>
+                  <a href="https://haryana.gov.in/" className="hover:underline">Govt. of Haryana</a>
+                </li>
+                <li className='mb-4'>
+                  <a href="http://www.indianrailways.gov.in/" className="hover:underline">Indian Railways</a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">Contact Us</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">Privacy Policy</a>
+                <h1>Registered Office (Chandigarh)</h1>
+                <h1>SCO 17-18-19, Near Jagat Cinema,</h1>
+                <h1>Sector-17A, Chandigarh.</h1>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                <li className='mb-4'>
+                  <a href="tel:+911722715644">+91 172 2715644</a>
+                </li>
+                <li className='mb-4'>
+                  <a href="mailto:hridc2017@gmail.com">hridc2017@gmail.com</a>
                 </li>
               </ul>
             </div>

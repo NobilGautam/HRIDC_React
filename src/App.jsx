@@ -16,6 +16,7 @@ import BoardOfDirectors from "./components/BoardOfDirectors";
 import LandAcquisition from "./components/LandAcquisition";
 import Careers from "./components/Careers";
 import News from "./components/News";
+import VideoGallery from "./components/VideoGallery";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/land-acquisition" element={<LandAcquisition/>} />
           <Route path='/careers' element={<Careers/>} />
           <Route path="/news" element={<News />} />
+          <Route path="/videogallery" element={<VideoGallery/>} />
         </Routes>
         {/* <Testimonials /> */}
         

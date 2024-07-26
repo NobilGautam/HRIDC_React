@@ -9,28 +9,28 @@ const BoardOfDirectors = () => {
       role: 'CHAIRPERSON',
       name: 'Sh. T.V.S.N. Prasad, IAS',
       designation: 'Chief Secretary, Govt. of Haryana',
-      image: '/path/to/image1.jpg',
+      image: 'https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg',
     },
     {
       id: 2,
       role: 'MANAGING DIRECTOR',
       name: 'Sh. Rajesh Agarwal, IRSE',
       designation: 'Managing Director, HRIDC',
-      image: '/path/to/image2.jpg',
+      image: 'https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg',
     },
     {
       id: 3,
       role: 'DIRECTOR',
       name: 'Sh. Anurag Rastogi, IAS',
       designation: 'ACS PWD(B&R) & Finance, Govt. of Haryana',
-      image: '/path/to/image3.jpg',
+      image: 'https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg',
     },
     {
       id: 4,
       role: 'DIRECTOR',
       name: 'Sh. V. Umashankar, IAS',
       designation: 'PSCM, Govt. of Haryana',
-      image: '/path/to/image4.jpg',
+      image: 'https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg',
     },
   ];
 

@@ -18,3 +18,7 @@ code {
 .clip-path-polygon {
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
+
+.swiper-button-next {
+  
+}
