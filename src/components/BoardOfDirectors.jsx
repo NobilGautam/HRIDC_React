@@ -42,7 +42,7 @@ const BoardOfDirectors = () => {
   );
 
   return (
-    <div className="p-4">
+    <div className="p-4 mb-10">
       <div className="mb-4 flex justify-end">
         <input
           type="text"
@@ -52,7 +52,7 @@ const BoardOfDirectors = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg flex justify-center mb-10">
+      <div className="relative overflow-x-auto shadow-md sm:rounded-lg flex justify-center mb-10 mt-10">
         <table className="text-sm text-left text-gray-500 dark:text-gray-400 w-[90%]">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>

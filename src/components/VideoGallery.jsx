@@ -4,18 +4,18 @@ import "aos/dist/aos.css";
 
 const VideoGallery = () => {
     const videos = [
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
-        { link: "https://www.youtube.com/embed/NMkqtEEoN6U" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
+        { link: "https://www.youtube.com/embed/u3r3TY0Ealk?si=vN1yQifhTRA-3JzP" },
     ];
 
     const [visibleVideos, setVisibleVideos] = useState(6);
@@ -49,7 +49,7 @@ const VideoGallery = () => {
     return (
         <div className='my-10'>
             <div className='w-full flex justify-center items-center'>
-                <h1 className='text-[2rem] font-poppins font-bold mb-8'>Video Gallery</h1>
+                <h1 className='text-[2rem] font-poppins font-bold mb-8 text-[#19155e]'>Video Gallery</h1>
             </div>
             <div className='w-full flex flex-wrap justify-center gap-x-[2%]'>
                 {

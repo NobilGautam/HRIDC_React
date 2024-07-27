@@ -12,7 +12,7 @@ const OurMission = () => {
   return (
     <>
       <div className='pt-10 pl-[5%] mb-10'>
-        <h1 className='text-[2rem] font-bold'>NEWS UPDATES</h1>
+        <h1 className='text-[2rem] font-bold text-[#19155e]'>NEWS UPDATES</h1>
         <p className='text-[1rem] font-light text-gray-600'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
       </div>
       <div className='relative w-[90%] mx-auto'>

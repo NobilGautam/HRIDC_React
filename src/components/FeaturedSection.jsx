@@ -5,7 +5,7 @@ const FeaturedSection = () => {
   return (
     <div className='py-20 flex flex-col gap-10'>
         <div className='flex flex-col justify-start'>
-            <h1 className='text-[2rem] font-bold px-[5%]'>GAZETTE NOTIFICATIONS</h1>
+            <h1 className='text-[2rem] font-bold px-[5%] text-[#19155e]'>GAZETTE NOTIFICATIONS</h1>
             <p className='text-[1rem] font-light px-[5%] text-gray-600'>going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </div>
 

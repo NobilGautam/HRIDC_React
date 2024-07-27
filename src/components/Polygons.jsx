@@ -20,7 +20,7 @@ const Polygons = () => {
               </div>
             </div>
             <div className="md:w-[22%]">
-              <div className="w-auto bg-[#75a1d2] h-[400px] p-8 clip-path-polygon flex flex-col items-center">
+              <div className="w-auto bg-[#224e9d] hover:bg-[#75a1d2] h-[400px] p-8 clip-path-polygon flex flex-col items-center">
                 <div className="mb-4">
                   <img src={icon2} alt="icon" />
                 </div>

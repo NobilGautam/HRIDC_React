@@ -25,7 +25,7 @@ const News = () => {
                     <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
-                    <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
+                    <h1 className='text-[2rem] text-white font-bold'>Here is the headline of the day</h1>
                     <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
@@ -47,7 +47,7 @@ const News = () => {
                     <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
-                    <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
+                    <h1 className='text-[2rem] text-white font-bold'>Here is the headline of the day</h1>
                     <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
@@ -69,7 +69,7 @@ const News = () => {
                     <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
-                    <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
+                    <h1 className='text-[2rem] text-white font-bold'>Here is the headline of the day</h1>
                     <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
@@ -91,7 +91,7 @@ const News = () => {
                     <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
-                    <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
+                    <h1 className='text-[2rem] text-white font-bold'>Here is the headline of the day</h1>
                     <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
@@ -113,7 +113,7 @@ const News = () => {
                     <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
-                    <h1 className='text-[2rem] text-white font-bold'>Aaj ki taaza khabar</h1>
+                    <h1 className='text-[2rem] text-white font-bold'>Here is the headline of the day</h1>
                     <p className='text-[1rem] font-light text-white w-[90%]'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum rem eos, inventore voluptas ullam sit eum fugit dignissimos adipisci reiciendis itaque nihil quasi quo laborum qui magnam dolor. Nihil unde non, iusto perspiciatis magnam, sunt sit error itaque ipsa iure fuga ipsum numquam voluptate cumque repellendus dicta vel quasi.
                     </p>
@@ -218,27 +218,27 @@ const News = () => {
       <div className="grid gap-4">
         <div className='relative group'>
           <img className="h-auto max-w-full rounded-lg" src="https://img.freepik.com/premium-photo/stuttgart-21-construction-site-new-railway-train-station-deutsche-bahn-db-portrait-format-germany_770123-96.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className='relative group'>
           <img className="h-auto max-w-full rounded-lg" src="https://www.shutterstock.com/image-photo/york-uk-oct-20-2019-600nw-1662607732.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://c8.alamy.com/comp/MFRE49/railway-track-construction-at-friedrichshain-in-central-berlin-germany-MFRE49.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>        
@@ -247,27 +247,27 @@ const News = () => {
       <div className="grid gap-4">
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://5.imimg.com/data5/SELLER/Default/2021/2/VA/WD/OP/61638786/girder-bridge-construction-work.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://thumbs.dreamstime.com/b/old-rail-way-bridge-rail-way-construction-country-journey-way-travel-train-to-any-where-frame-58519197.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://www.shutterstock.com/image-photo/york-uk-oct-20-2019-600nw-1662607732.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
@@ -276,27 +276,27 @@ const News = () => {
       <div className="grid gap-4">
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://thumbs.dreamstime.com/b/old-rail-way-bridge-rail-way-construction-country-journey-way-travel-train-to-any-where-frame-58519197.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://c8.alamy.com/comp/MFRE49/railway-track-construction-at-friedrichshain-in-central-berlin-germany-MFRE49.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://5.imimg.com/data5/SELLER/Default/2021/2/VA/WD/OP/61638786/girder-bridge-construction-work.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
@@ -305,27 +305,27 @@ const News = () => {
       <div className="grid gap-4">
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://5.imimg.com/data5/SELLER/Default/2021/2/VA/WD/OP/61638786/girder-bridge-construction-work.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://img.freepik.com/premium-photo/stuttgart-21-construction-site-new-railway-train-station-deutsche-bahn-db-portrait-format-germany_770123-96.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <img className="h-auto max-w-full rounded-lg" src="https://www.shutterstock.com/image-photo/york-uk-oct-20-2019-600nw-1662607732.jpg" alt="" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 duration-300 group-hover:opacity-90 transition-opacity rounded-lg flex items-end p-4">
             <div className='flex flex-col items-center w-full'>
-              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[4px] border-white'>Inaugration of Revari Bridge</h1>
+              <h1 className='text-white font-poppins text-[1.4rem] font-bold border-b-[2px] border-white'>Inaugration of Revari Bridge</h1>
               <p className='text-white font-poppins font-light mt-2'>Prime Minister inaugrated the bridge at revari junction which would facilitate citizens </p>
             </div>
           </div>
