@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from "react-icons/fa";
+import { FiSearch } from 'react-icons/fi';
 
 const Tender = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -76,13 +77,16 @@ const Tender = () => {
   return (
     <div className="p-4">
       <div className="mb-4 flex justify-end">
-        <input
-          type="text"
-          placeholder="Search for tenders"
-          className="p-2 border rounded-lg w-[20%]"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
+        <div className="relative w-[25%]">
+          <input
+            type="text"
+            placeholder="Search for tenders"
+            className="p-2 pl-10 border rounded-lg w-full"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <FiSearch className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400" />
+        </div>
       </div>
       <div className="overflow-x-auto shadow-md sm:rounded-lg flex justify-center">
         <table className="text-sm text-left text-gray-500 dark:text-gray-400 w-[90%]">

@@ -15,7 +15,7 @@ const Polygons = () => {
                 <h4 className="text-white text-2xl font-bold mb-4">OUR VISION</h4>
                 <p className="text-white mb-4 w-[100%] text-center text-justify font-light">To develop top-tier, fast, and safe rail infrastructure, connecting all of Haryana, including underserved areas, and boosting regional economic and social activity.</p>
                 <div>
-                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-xl">Know More</a>
+                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-md">Know More</a>
                 </div>
               </div>
             </div>
@@ -27,7 +27,7 @@ const Polygons = () => {
                 <h4 className="text-white text-2xl font-bold mb-4">Haryana Rail</h4>
                 <p className="text-white mb-4 w-[70%] text-center font-light">Lorem Ipsum generators on the Internet tend to repeat predefined</p>
                 <div>
-                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-xl">Join Now</a>
+                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-md">Join Now</a>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Polygons = () => {
                 <h4 className="text-white text-2xl font-bold mb-4">Haryana Rail</h4>
                 <p className="text-white mb-4 w-[70%] text-center font-light">Lorem Ipsum generators on the Internet tend to repeat predefined</p>
                 <div>
-                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-xl">Join Now</a>
+                  <a href="#" className="text-white border-[1px] font-semibold border-white  px-4 py-2 rounded-md">Join Now</a>
                 </div>
               </div>
             </div>

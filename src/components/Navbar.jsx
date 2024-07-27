@@ -30,36 +30,10 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:space-x-8 lg:items-center">
             <a href="/" className="text-gray-800 hover:text-gray-600 text-base font-semibold font-poppins">Home</a>
-            {/* <button id="aboutUsdropdownHoverButton" data-dropdown-toggle="aboutUsDropdownHover" data-dropdown-trigger="hover" class={`text-gray-800 duration-200 hover:bg-blue-200 px-4 py-2 rounded-xl z-50 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold ${isAboutDropDownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} type="button">About Us<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-            </svg>
-            </button>
-            <div id="aboutUsDropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="aboutUsdropdownHoverButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-                  </li>
-                  <a href="/alpha" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Overview</a>
-                  <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Organization Structure</a>
-                  <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Values</a>
-                  <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Policies</a>
-                  <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Board of Directors</a>
-                  <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Reports</a>
-                </ul>
-            </div> */}
             
             <div className="relative" onMouseEnter={() => setIsAboutDropDownOpen(true)} onMouseLeave={() => setIsAboutDropDownOpen(false)}>
               <button 
-                className={`text-gray-800 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold ${isAboutDropDownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} 
+                className={`text-gray-800 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold border-transparent border-2 p-2 ${isAboutDropDownOpen ? 'bg-blue-200 rounded-md border-blue-200' : ''}`} 
                 // onClick={toggleAboutUsDropdown}
               >
                 About Us
@@ -82,34 +56,10 @@ const Navbar = () => {
             <Link to="/board-of-directors" className="text-gray-800 hover:text-gray-600 text-base font-semibold font-poppins">Board of Directors</Link>
             <Link to="/tender" className="text-gray-800 hover:text-gray-600 text-base font-semibold font-poppins">Tenders</Link>
             
-            {/* <button id="mediaDropdownHoverButton" data-dropdown-toggle="mediaDropdownHover" data-dropdown-trigger="hover" class={`text-gray-800 px-4 py-2 hover:bg-blue-200 rounded-xl duration-200 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold ${isMediaDropdownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} type="button">Media <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"> */}
-            {/* <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-            </svg>
-            </button> */}
-            {/* <div id="mediaDropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="mediaDropdownHoverButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-                  </li>
-                  <Link to='/news' className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Photo Gallery</Link>
-                  <Link to="/videogallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Video Gallery</Link>
-                </ul>
-            </div> */}
-
-            
             <Link to="/careers" className="text-gray-800 hover:text-gray-600 text-base font-semibold font-poppins">Careers</Link>
             <div className="relative" onMouseEnter={() => setIsMediaDropdownOpen(true)} onMouseLeave={() => setIsMediaDropdownOpen(false)}>
               <button 
-                className={`text-gray-800 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold ${isMediaDropdownOpen ? 'bg-blue-200 p-2 rounded-md' : ''}`} 
+                className={`text-gray-800 font-poppins flex flow-row items-center hover:text-gray-600 focus:outline-none text-base font-semibold border-transparent border-2 p-2 ${isMediaDropdownOpen ? 'bg-blue-200 rounded-md border-blue-200' : ''}`} 
                 // onClick={toggleMediaDropdown}
               >
                 Media

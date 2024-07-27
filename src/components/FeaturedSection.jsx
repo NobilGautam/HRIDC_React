@@ -20,7 +20,7 @@ const FeaturedSection = () => {
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       Variations of passages of Lorem Ipsum available, but the majority have alteration in some form, or randomised variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.
                     </p>
-                    <button className='text-[1rem] border-2 border-[#727171] p-1 px-4 hover:bg-gray-600 hover:text-white mb-2 font-semibold duration-300 rounded-xl'>READ MORE</button>
+                    <button className='text-[1rem] border-2 border-[#727171] p-1 px-4 hover:bg-gray-600 hover:text-white mb-2 font-semibold duration-300 rounded-md'>READ MORE</button>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@ const FeaturedSection = () => {
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       Variations of passages of Lorem Ipsum available, but the majority have alteration in some form, or randomised variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.
                     </p>
-                    <button className='text-[1rem] border-2 border-[#727171] p-1 px-4 hover:bg-gray-600 hover:text-white font-semibold mb-2 duration-300 rounded-xl'>READ MORE</button>
+                    <button className='text-[1rem] border-2 border-[#727171] p-1 px-4 hover:bg-gray-600 hover:text-white font-semibold mb-2 duration-300 rounded-md'>READ MORE</button>
                 </div>
             </div>
         </div>

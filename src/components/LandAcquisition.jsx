@@ -76,7 +76,7 @@ const LandAcquisition = () => {
                 <div className='flex w-[90%] px-[1%]'>
                     <h1 className='font-semibold w-[20%] text-[1rem]'>S. No.</h1>
                     <h1 className='font-semibold w-[60%] text-[1rem]'>Title</h1>
-                    <h1 className='font-semibold w-[20%] text-[1rem] text-right pr-[2%]'>Actions</h1>
+                    <h1 className='font-semibold w-[20%] text-[1rem] text-right pr-[3%]'>Links</h1>
                 </div>
             </div>
             <div className='flex items-center flex-col gap-4 mb-10  '>
@@ -90,7 +90,7 @@ const LandAcquisition = () => {
                         </div>
                         <div className='w-[20%] flex justify-end items-center pr-[5%] hover:cursor-pointer'>
                             <IoOpenOutline className='text-[1.4rem]'/>
-                        </div>
+                        </div>  
                     </div>
                 ))}
             </div>
