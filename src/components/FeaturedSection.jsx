@@ -90,7 +90,7 @@ const FeaturedSection = () => {
             <div className='flex justify-start px-[8%] items-center mb-10 mt-10'>
                 <div className="flex flex-col md:flex-row md:h-[200px] md:max-w-[100%] items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <div className='w-[40%] overflow-hidden'>
-                        <img className="w-full h-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://themetrorailguy.com/wp-content/uploads/2022/01/HORCPatliManesarAlignment.jpg' alt="TENDER" />
+                        <img className="h-[200px] w-full rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://themetrorailguy.com/wp-content/uploads/2022/01/HORCPatliManesarAlignment.jpg' alt="TENDER" />
                     </div>
                     <div className="flex flex-col justify-between items-start p-4 py-8 leading-normal w-[60%]">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HORC/HRIDC/IC-01/2024</h5>
@@ -105,7 +105,7 @@ const FeaturedSection = () => {
             <div className='flex justify-start px-[8%] items-center mb-10 mt-10'>
                 <div className="flex flex-col md:flex-row md:h-[200px] md:max-w-[100%] items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <div className='w-[40%] overflow-hidden'>
-                        <img className="w-full h-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://www.punjabnewsexpress.com/images/article/article166984.jpg' alt="TENDER" />
+                        <img className="h-[200px] w-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://www.punjabnewsexpress.com/images/article/article166984.jpg' alt="TENDER" />
                     </div>
                     <div className="flex flex-col justify-between items-start p-4 py-8 leading-normal w-[60%]">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -122,7 +122,7 @@ const FeaturedSection = () => {
             <div className='flex justify-start px-[8%] items-center mb-10'>
                 <div className="flex flex-col md:flex-row md:h-[200px] md:max-w-[100%] items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <div className='w-[40%] overflow-hidden'>
-                        <img className="w-full h-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://www.constructionweekonline.in/cloud/2021/11/25/ggXPK7nV-rail-electrification-8-1200x799.jpg' alt="TENDER" />
+                        <img className="h-[200px] w-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src='https://www.constructionweekonline.in/cloud/2021/11/25/ggXPK7nV-rail-electrification-8-1200x799.jpg' alt="TENDER" />
                     </div>
                     <div className="flex flex-col justify-between items-start p-4 py-8 leading-normal w-[60%]">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HORC/HRIDC/C-6/2024</h5>

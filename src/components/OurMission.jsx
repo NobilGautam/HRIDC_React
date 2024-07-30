@@ -57,11 +57,11 @@ const OurMission = () => {
         >
           {newsUpdates.map((item,index) => (
             <SwiperSlide key={index} className='flex justify-center'>
-              <div className='max-w-[100%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+              <div className='max-w-[100%] h-[400px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
                 <a href="#">
                   <img className='rounded-t-lg h-[200px] w-full' src={item.image} alt="" />
                 </a>
-                <div className='p-5'>
+                <div className='p-5 flex flex-col justify-between h-[200px]'>
                   <a href="#">
                     <h5 className='mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white'>{item.title}</h5>
                   </a>

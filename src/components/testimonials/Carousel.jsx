@@ -11,13 +11,13 @@ const Carousel = () => {
           <div className="relative h-full">
             <img
             //this is the background image
-              src={bannerImg}
+              src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg"
               className="absolute block w-full h-full object-cover"
               alt="..."
             />
             <div className='absolute top-0 left-0 m-10 p-10 border-[1px] bg-black bg-opacity-50 border-white rounded-xl flex justify-between items-center'>
                 <div className='w-[30%] p-10 flex justify-center items-center'>
-                    <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
+                    <img src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg" className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Achievement</h1>
@@ -33,13 +33,13 @@ const Carousel = () => {
           <div className="relative h-full">
             <img
             //this is the background image
-              src={bannerImg}
+              src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg"
               className="absolute block w-full h-full object-cover"
               alt="..."
             />
             <div className='absolute top-0 left-0 m-10 p-10 border-[1px] bg-black bg-opacity-50 border-white rounded-xl flex justify-between items-center'>
                 <div className='w-[30%] p-10 flex justify-center items-center'>
-                    <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
+                    <img src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg" className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Achievement</h1>
@@ -55,13 +55,13 @@ const Carousel = () => {
           <div className="relative h-full">
             <img
             //this is the background image
-              src={bannerImg}
+              src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg"
               className="absolute block w-full h-full object-cover"
               alt="..."
             />
             <div className='absolute top-0 left-0 m-10 p-10 border-[1px] bg-black bg-opacity-50 border-white rounded-xl flex justify-between items-center'>
                 <div className='w-[30%] p-10 flex justify-center items-center'>
-                    <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
+                    <img src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg" className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Achievement</h1>
@@ -77,13 +77,13 @@ const Carousel = () => {
           <div className="relative h-full">
             <img
             //this is the background image
-              src={bannerImg}
+              src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg"
               className="absolute block w-full h-full object-cover"
               alt="..."
             />
             <div className='absolute top-0 left-0 m-10 p-10 border-[1px] bg-black bg-opacity-50 border-white rounded-xl flex justify-between items-center'>
                 <div className='w-[30%] p-10 flex justify-center items-center'>
-                    <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
+                    <img src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg" className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Achievement</h1>
@@ -99,13 +99,13 @@ const Carousel = () => {
           <div className="relative h-full">
             <img
             //this is the background image
-              src={bannerImg}
+              src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg"
               className="absolute block w-full h-full object-cover"
               alt="..."
             />
             <div className='absolute top-0 left-0 m-10 p-10 border-[1px] bg-black bg-opacity-50 border-white rounded-xl flex justify-between items-center'>
                 <div className='w-[30%] p-10 flex justify-center items-center'>
-                    <img src={bannerImg} className='w-[100px] h-[100px]' alt=""/>
+                    <img src="https://www.equitypandit.com/wp-content/uploads/2023/04/PNC-Infratech-Shares-Up-2-on-Rs-772-Crore-Haryana-Rail-Infrastructure-Project-EP.jpg" className='w-[100px] h-[100px]' alt=""/>
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-start'>
                     <h1 className='text-[2rem] text-white font-bold'>Achievement</h1>
