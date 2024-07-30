@@ -8,9 +8,9 @@ const HeroSection = () => {
       <div className='relative z-10 flex flex-col justify-center items-center'>
         <h1 className='text-white text-[2rem] min-[425px]:text-[3rem] md:text-[4rem] font-bold'>HARYANA RAIL</h1>
         <h1 className='text-white text-[2rem] min-[425px]:text-[3rem] md:text-[4rem] font-bold'>INFRASTRUCTURE</h1>
-        <p className='text-white text-[1rem] font-light max-w-[60%] text-center'>
+        {/* <p className='text-white text-[1rem] font-light max-w-[60%] text-center'>
           Lorem ipsum dolor sit amet, tenetur doloribus minus mollitia distinctio earum. Ipsum accusantium veritatis cupiditate dignissimos modi, exercitationem alias! Quidem numquam nam vitae error quo optio omnis atque consectetur impedit,!
-        </p>
+        </p> */}
       </div>
     </div>
   );

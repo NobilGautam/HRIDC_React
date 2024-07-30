@@ -19,6 +19,56 @@ code {
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
 
-.swiper-button-next {
-  
+/* styles.css */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Options: auto, thin, none */
+  scrollbar-color: #888 #f1f1f1; /* Thumb and track color */
+}
+
+
+/* Infinite horizontal scroll animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Container for the scrolling effect */
+.scroll-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Scrollable content with animation */
+.scroll-content {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll-left 30s linear infinite;
+  will-change: transform;
+}
+
+/* Pause scrolling on hover */
+.scroll-wrapper .scroll-content:hover {
+  animation-play-state: paused;
 }

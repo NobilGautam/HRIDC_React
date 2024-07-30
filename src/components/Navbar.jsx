@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { RiArrowDropDownLine, RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import newLogo from '../assets/RevisedHRIDC Brand Guidlines.png';
 
 const Navbar = () => {
   const [isAboutDropDownOpen, setIsAboutDropDownOpen] = useState(false);
@@ -23,9 +24,10 @@ const Navbar = () => {
     <nav className="bg-white shadow-lg">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-fit p-2">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 my-4">
             <a href="/" className="flex items-center">
-              <img className="h-20 w-20" src="https://www.hridc.co.in/img/footer-logo.png" alt="Logo" />
+              {/* <img className="h-20 w-20" src="https://www.hridc.co.in/img/footer-logo.png" alt="Logo" /> */}
+              <img className='w-[11rem]' src={newLogo} alt="" />
             </a>
           </div>
           <div className="hidden lg:flex lg:space-x-8 lg:items-center">
@@ -40,13 +42,12 @@ const Navbar = () => {
                 <RiArrowDropDownLine className='text-2xl' />
               </button>
               {isAboutDropDownOpen && (
-                <div className='pt-2'>
+                <div className='absolute top-11 right-0'>
                   <div className="z-20 rounded-md absolute right-0 w-48 bg-white border border-gray-200 shadow-lg">
                     <a href="/alpha" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Overview</a>
                     <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Organization Structure</a>
                     <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Values</a>
                     <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Policies</a>
-                    <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Board of Directors</a>
                     <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Reports</a>
                   </div>
                 </div>
@@ -66,15 +67,16 @@ const Navbar = () => {
                 <RiArrowDropDownLine className='text-2xl' />
               </button>
               {isMediaDropdownOpen && (
-                <div className='pt-2'>
+                <div className='absolute top-11 right-0'>
                   <div className="z-20 rounded-md absolute right-0 w-48 bg-white border border-gray-200 shadow-lg">
                     <Link to='/news' className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Photo Gallery</Link>
                     <Link to="/videogallery" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Video Gallery</Link>
+                    <Link to="/pressrelease" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Press Release</Link>
                   </div>
                 </div>
               )}
             </div>
-            <Link to="/contact" className="text-gray-800 text-base font-semibold font-poppins bg-blue-400 py-2 px-4 rounded-xl hover:bg-blue-600 hover:text-white duration-200">Contact Us</Link>
+            <Link to="/contact" className="text-base font-semibold font-poppins bg-[#224e9d] hover:bg-[#75a1d2] py-2 px-6 rounded-md text-white duration-200">Contact Us</Link>
           </div>
           <div className="lg:hidden flex items-center">
             <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
@@ -100,7 +102,6 @@ const Navbar = () => {
                 <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Organization Structure</a>
                 <a href="/beta" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Values</a>
                 <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Our Policies</a>
-                <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Board of Directors</a>
                 <a href="/gamma" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 border-b">Reports</a>
               </div>
             )}

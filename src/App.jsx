@@ -17,6 +17,8 @@ import LandAcquisition from "./components/LandAcquisition";
 import Careers from "./components/Careers";
 import News from "./components/News";
 import VideoGallery from "./components/VideoGallery";
+import PressRelease from "./components/PressRelease";
+import Timeline from "./components/journey/Timeline";
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
           <Route path='/careers' element={<Careers/>} />
           <Route path="/news" element={<News />} />
           <Route path="/videogallery" element={<VideoGallery/>} />
+          <Route path="/pressrelease" element={<PressRelease/>} />
         </Routes>
         {/* <Testimonials /> */}
         
@@ -45,7 +48,8 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Polygons />
+      {/* <Polygons /> */}
+      <Timeline />
       <AboutRail />
       <OurMission />
       <FeaturedSection />

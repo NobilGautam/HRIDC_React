@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between mt-10">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <img src="https://www.hridc.co.in/img/footer-logo.png" className="h-20 me-3" alt="FlowBite Logo" />
@@ -33,10 +33,10 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">External Links</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://india.gov.in/" className="hover:underline ">National Portal</a>
+                  <a href="https://www.irctc.co.in/nget/train-search" className="hover:underline ">IRCTC</a>
                 </li>
                 <li className='mb-4'>
-                  <a href="http://mohua.gov.in/" className="hover:underline">MoHUA</a>
+                  <a href="https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281" className="hover:underline">Railway Recruitment Board</a>
                 </li>
                 <li className='mb-4'>
                   <a href="https://haryana.gov.in/" className="hover:underline">Govt. of Haryana</a>
@@ -55,6 +55,11 @@ const Footer = () => {
                 <h1>Sector-17A, Chandigarh.</h1>
                 </li>
                 <li className='mb-4'>
+                <h1>IRCON International, Tower-2, </h1>
+                <h1>Plot No.-16, Sector- 32, Gurugram, </h1>
+                <h1>Haryana- 122018</h1>
+                </li>
+                <li className='mb-4'>
                   <a href="tel:+911722715644">+91 172 2715644</a>
                 </li>
                 <li className='mb-4'>
@@ -66,39 +71,40 @@ const Footer = () => {
         </div>
         <hr className="my-6 sm:mx-autoborder-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Molog</a>. All Rights Reserved.</span>
+          <span className="text-sm sm:text-center text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Molog</a>. All Rights Reserved.</span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="#" className=" hover:text-gray-900 hover:text-white">
-              <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                <path fillRule="evenodd" d="M5 1 1 5l4 4"/>
-              </svg>
-              <span className="sr-only">Facebook page</span>
-            </a>
-            <a href="#" className=" hover:text-gray-900 hover:text-white ms-5">
-              <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-              </svg>
-              <span className="sr-only">Discord community</span>
-            </a>
-            <a href="#" className=" hover:text-gray-900 hover:text-white ms-5">
-              <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                <path fillRule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-              </svg>
-              <span className="sr-only">Twitter page</span>
-            </a>
-            <a href="#" className=" hover:text-gray-900 hover:text-white ms-5">
-              <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 .333A10 10 0 0 0 0 10c0 4.418 2.882 8.157 6.855 9.456.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clipRule="evenodd"/>
-              </svg>
-              <span className="sr-only">GitHub account</span>
-            </a>
-            <a href="#" className=" hover:text-gray-900 hover:text-white ms-5">
-              <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clipRule="evenodd"/>
-              </svg>
-              <span className="sr-only">Dribbble account</span>
-            </a>
-          </div>
+  <a href="https://www.linkedin.com/company/hridc" className="text-white" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M4.98 3.5C4.98 2.119 3.861 1 2.48 1S.98 2.119.98 3.5 2.1 6 3.48 6c1.38 0 2.5-1.119 2.5-2.5zM.98 8h4.99V23H.98zM10.98 8h-4.99V23h4.99v-7.708c0-4.194 5.614-4.533 5.614 0V23h4.99V14.684C20.984 6.232 10.98 6.612 10.98 12.797V23z"/>
+    </svg>
+    <span className="sr-only">LinkedIn page</span>
+  </a>
+  <a href="https://www.youtube.com/channel/HRIDC" className="text-white ms-5" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M23.498 6.186a3.005 3.005 0 0 0-2.118-2.123C19.671 3.5 12 3.5 12 3.5s-7.671 0-9.381.563a3.005 3.005 0 0 0-2.118 2.123C.5 7.8.5 12.021.5 12.021s0 4.221.563 5.835a3.005 3.005 0 0 0 2.118 2.123C4.329 20.5 12 20.5 12 20.5s7.671 0 9.381-.563a3.005 3.005 0 0 0 2.118-2.123C23.5 16.242 23.5 12.021 23.5 12.021s0-4.221-.563-5.835zM9.75 15.333V8.707l6.127 3.313-6.127 3.313z"/>
+    </svg>
+    <span className="sr-only">YouTube channel</span>
+  </a>
+  <a href="https://www.instagram.com/hridc" className="text-white ms-5" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M7.75 2A5.76 5.76 0 0 0 2 7.75v8.5A5.76 5.76 0 0 0 7.75 22h8.5A5.76 5.76 0 0 0 22 16.25v-8.5A5.76 5.76 0 0 0 16.25 2h-8.5zM19.75 16.25A3.5 3.5 0 0 1 16.25 19.75h-8.5A3.5 3.5 0 0 1 4.25 16.25v-8.5A3.5 3.5 0 0 1 7.75 4.25h8.5A3.5 3.5 0 0 1 19.75 7.75v8.5zM16 6.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 8a4 4 0 1 0 4 4 4.006 4.006 0 0 0-4-4zm0 6.5a2.5 2.5 0 1 1 2.5-2.5 2.503 2.503 0 0 1-2.5 2.5z"/>
+    </svg>
+    <span className="sr-only">Instagram page</span>
+  </a>
+  <a href="https://www.facebook.com/hridc" className="text-white ms-5" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.437 9.878v-6.98H7.898v-2.898h2.539v-2.226c0-2.505 1.492-3.892 3.775-3.892 1.094 0 2.234.197 2.234.197v2.454h-1.257c-1.24 0-1.624.774-1.624 1.564v1.904h2.748l-.44 2.898h-2.308V22C18.343 21.128 22 16.991 22 12z"/>
+    </svg>
+    <span className="sr-only">Facebook page</span>
+  </a>
+  <a href="https://twitter.com/hridc" className="text-white ms-5" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M23.643 4.937a9.742 9.742 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.875 9.875 0 0 1-3.127 1.196 4.908 4.908 0 0 0-8.366 4.482A13.911 13.911 0 0 1 1.671 3.149a4.868 4.868 0 0 0-.664 2.468c0 1.703.867 3.204 2.188 4.084a4.907 4.907 0 0 1-2.226-.616v.061a4.912 4.912 0 0 0 3.939 4.814 4.943 4.943 0 0 1-2.221.085 4.915 4.915 0 0 0 4.588 3.417A9.86 9.86 0 0 1 0 21.542 13.93 13.93 0 0 0 7.548 24c9.14 0 14.143-7.72 14.143-14.418 0-.22-.004-.44-.014-.658A10.18 10.18 0 0 0 24 4.55a9.965 9.965 0 0 1-2.357.647z"/>
+    </svg>
+    <span className="sr-only">Twitter page</span>
+  </a>
+</div>
+
         </div>
       </div>
     </footer>
